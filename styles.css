@@ -55,3 +55,35 @@ h1, h2 {
 h1 {
     font-size: 48px;
 }
+
+/* ===========================================
+   SECCIONES
+   Título, cuadro verde con el contenido y
+   una barra verde más oscura que separa cada sección
+=========================================== */
+
+/* Centra el contenido y limita su ancho para que sea cómodo de leer */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cuadro verde que contiene el texto de cada sección */
+.contenido {
+    background-color: #C2F0B7;
+    border: 3px solid #6FAE60;
+    border-radius: 12px;
+    padding: 20px 25px;
+}
+
+/* Barra más oscura que divide una sección de la siguiente
+   (no aparece después de la última sección) */
+section:not(:last-of-type)::after {
+    content: "";
+    display: block;
+    height: 18px;
+    margin: 35px 0;
+    background-color: #5E9E4F;
+    border-radius: 9px;
+}

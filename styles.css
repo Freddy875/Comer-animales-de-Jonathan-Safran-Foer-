@@ -33,3 +33,25 @@ body {
     background-color: #9CDE90;
 
 }
+
+/* ===========================================
+   TIPOGRAFÍAS
+   Letra tipo escrita a mano (Google Fonts)
+=========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Patrick+Hand&display=swap');
+
+/* Texto general de la página con letra tipo lápiz */
+body {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+
+/* Títulos con letra más inclinada, tipo cuaderno */
+h1, h2 {
+    font-family: 'Caveat', cursive;
+}
+
+h1 {
+    font-size: 48px;
+}

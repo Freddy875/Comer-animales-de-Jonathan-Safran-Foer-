@@ -1,0 +1,35 @@
+/* ===========================================
+   IMAGEN DE PORTADA
+   Reduce el SVG del encabezado y lo centra
+=========================================== */
+
+header svg {
+
+    /* Ocupa todo el ancho disponible, pero nunca más de 600px */
+    width: 100%;
+    max-width: 600px;
+
+    /* Mantiene la proporción original de la imagen */
+    height: auto;
+
+    /* Como el SVG es inline, display:block permite centrarlo con margin auto */
+    display: block;
+    margin: 20px auto;
+
+}
+
+header {
+    text-align: center;
+}
+
+/* ===========================================
+   COLOR DE FONDO
+   Usa el mismo verde de la imagen de portada
+=========================================== */
+
+body {
+
+    /* Verde idéntico al fondo del SVG */
+    background-color: #9CDE90;
+
+}
